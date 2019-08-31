@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  <ul>
+    <li class="dd">这是我的第1个li</li>
+    <li id="ccc" title="家俊">这是我的第2个li <span>张家俊</span></li>
+    <li>这是我的第3个li</li>
+    <li class="dd">这是我的第4个li</li>
+    <li class="text">这是我的第5个li <span>斤斤计较</span> </li>
+  </ul>
+  <input type="checkbox" value="张家俊" id="btn" aaa="999" title="qqq" checked>
+</body>
+<script src="./jQuery.js"></script>
+<script>
+  let lis = $('li')
+  // console.log(lis)
+  let dd = document.querySelector('.dd')
+  dd.innerHTML = '<span>张家俊</span>';
+  // console.log()
+
+
+  // let aa = $('#btn')
+  // let flag=true;
+  // let y = aa.prop('checked',flag)
+  // console.log(y)
+
+  let ss = document.querySelector('.text')
+
+  let s1 = $('#btn');
+  console.log(s1)
+  let a = s1.val('aaa');
+  console.log(a)
+
+</script>
+
+</html>
